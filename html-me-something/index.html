@@ -2,97 +2,115 @@
 <html>
 <head>
    <title>My First Webpage</title> 
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <style>
-* {
- 
-}
-div.container {
+
+ div.container {
     width:100%;
-	border: 1px solid gray;
+	border: 1px solid blue;
+  }
+
+   header {
+
+padding:1em;
+background-color:blue;
+color : yellow;
+clear : left;
+text-align:center;
 }
 
- header,footer {
+footer {
 
     padding:1em;
-	background-color:gray;
-	color : black;
+	background-color:rgb(24, 123, 189);
+	color : white;
 	clear : left;
 	text-align:center;
-}
- .column.middle {
-    margin-left: 170px;
-	width:50%;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
+ }
 
-.column  {
-    float:left;
-	padding:10px;
-}
-
-.column.side {
-    float: left;
+aside.right {
+    display: block;
+	float: right;
 	width:25%;
-    max-width: 160px;
+    max-width: 80px;
+    margin: 120;
+    padding: 1em;
+}
+aside.left {
+    display: block;
+	float: left;
+	width:25%;
+    max-width: 100px;
     margin: 0;
     padding: 1em;
 }
-
-.column. ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
+p{
+	font-family: 'Lucida Sans';
+	font-size: 11;
 }
 
+ul{
+font-family: "Arial";
+font-size: 10;
+}
 
 </style>
 </head>
 <body>
     <div class="container">
     <header>
-        <h1>Places Visited So Far!!</h1>
-    </header>
-    <nav>
+        <h1>Interesting places I have visited in US 	!!</h1>
+	</header>
+	</div>
+    <aside.left>
 	   <ul><h2>My Wish List</h2>
 	       <li>Niagara Falls</li>
-		   <li>Diseny Land</li>
+		   <li>Mount Rainier</li>
 		   <li>Grand Canyon</li>
 		   <li>New York</li>
+		   <li>Yellow-Stone</li>
+		   <li>Los Angeles</li>
+		   <li>Orlando</li>
+		   <li>Hawaii</li>
+		   <li>Honolulu</li>
+		   <li>San Diego</li>
 	   </ul>		
-    </nav>			
+	</aside.left>	
+
+	<aside.right>
+				<h2>About</h2>
+				<p>To learn more information about the Places mentioned and images displayed. please visit <a href="www.google.com">www.google.com</a>
+				</p>
+	</aside.right>
+			
 	    <main>
+		<article>
 	       <h1>Mount Rainier</h1>
-		   <img src="images/Mt-Rainier.jpg" alt="Image result for pictures of mount rainier" width="320" height="181">
+		   <img src="images/Mt-Rainier.jpg" alt="Image result for pictures of mount rainier" style="margin-top: 5px;"  width="320" height="165">
 		   <p>We Visited Mount Rainier along with friends and families when we lived in Seattle WA during 2008-2010.
-		   It was a wonderful and Awesome experience. It was also my first trip, after we moved to US. I still Cherish those Beautiful memories.</p>
+		   It was a wonderful and Awesome experience. It was also my first trip, after we moved to US. I still Cherish those Beautiful memories.
+		If you talk about Seattle WA, there are many places actually we visited and some of them includded are Space Needle, Yakima Valley, Pike Place Market,
+	Museum of Flight, olympic National Park and many more.</p>
 		 
 	      <h1>Yellow Stone National Park</h1>
-		  <img  src="images/Yellow-Stone.jpg" style="margin-top: 72px;" alt="Image result for pictures of yellowstone national park" width="320" height="209">
-		  <p>My first long trip in US. We drove to Yellow Stone from Seattle along with friends. We had lots of Fun during that trip.</p>
+		  <img  src="images/Yellow-Stone.jpg" style="margin-top: 5px;" alt="Image result for pictures of yellowstone national park" width="320" height="165">
+		  <p>My first long trip in US. We drove to Yellow Stone from Seattle along with friends. We had lots of Fun during that trip. It's very interesting to know and learn about the pools and steam supervolcano in Yellow stone.
+			 Yellow stone includes the nation's oldest herd of bison.
+		  </p>
 		   <h1>Niagara Falls</h1>
-		   <img src="images/Niagara_fall.jpg"  alt="Image result for niagara falls" width="320" height="167">
-		   <p>This was our Family trip to Niagara Falls along with my Parents. It was so Amazing to see such a huge falls. My favorite part was Horseshoe falls. We even get to see Fireworks, since we visited on 4th July of that year.It was Marvelous movment.</p>
+		   <img src="images/Niagara_fall.jpg"  style="margin-top: 5px;" alt="Image result for niagara falls" width="320" height="165">
+		   <p>This was our Family trip to Niagara Falls along with my Parents. It was so Amazing to see such a huge falls. My favorite part was Horseshoe falls. We even get to see Fireworks, since we visited on 4th July of that year.It was Marvelous movment.
+			  We in fact loved this place so much, that we visited couple of times in a row. We had many woderful experiences. we also visited Aquarium of Niagara were we get to see Seal show which was excellent. 
+		   </p>
 		   <h1>Grand Canyon</h1>
-		   <img src="images/Grand-Canyon.jpg" alt="Image result for pictures of grand canyon"  style="margin-top: 57px;" width="320" height="240">
+		   <img src="images/Grand-Canyon.jpg" alt="Image result for pictures of grand canyon"  style="margin-top: 5px;"  width="320" height="165">
 		  <p>Grand Canyon was our last year summer trip. We did camping too. It was unbelievable and so immense view.I was thrilled to see such a view. We had enjoyed the trip.
-		We liked the Horseshoe bend the best.</p>
+		We liked the Horseshoe bend the best.Our trip not limited to Grand Canoyn, but also included some other places around Grand Canyon.</p>
 		  <h1>New York</h1>
-		  <img  src="images/World-Trand-Center.jpg" alt="Image result for pictures of one world trade center"  style="margin-top: 70px;" width="320" height="213">
+		  <img  src="images/World-Trade-Center.jpg" alt="Image result for pictures of one world trade center"  style="margin-top: 5px;"  width="320" height="165">
 		  <p>Last but not least, another wonderful place ever to visit is New York. My words won't be enough to describe this Amazing place. Times-Square, Madam Tussauds, One World Trade center, Wall Street and so on.</p>
-		<footer>CopyRight &copy; SunitaLanka</footer>  
+		</article>
+		  <footer>CopyRight &copy; 2018 SunitaLanka</footer>  
 	  </main>
-    </div>
  </body>
 </html> 
-		
-		   
-	
-		
-	
