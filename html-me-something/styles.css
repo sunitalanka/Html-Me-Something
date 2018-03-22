@@ -1,45 +1,84 @@
-
-
- div.container {
-    width:100%;
-	border: 1px solid blue;
-  }
-
-header {
-
-
-background-color:blue;
-color : yellow;
-clear : left;
-text-align:center;
+body {
+    width: 100%;
+    margin:0 auto;
+    background-color:whitesmoke;
+    font-size:50%;
+}
+div.container {
+    width: 100%;
+    margin:0;
+    box-sizing:border-box;
+    padding:1px;
+    text-align:center;
+    color:black;
+    background-color: rgb(182, 199, 199);
 }
 
-footer {
-	background-color:rgb(24, 123, 189);
-	color : white;
-	clear : left;
-	text-align:center;
+ header,main,footer {
+    font-size: 1.6em;
+}
+
+  header {
+    padding : 1.87em 0;
+    font-family: Georgia; 
+    font-size:20px;
+}
+
+  h1 {
+    margin :0;
+ }
+   p  {
+     padding:1.25em;
+     font-family: Lucida Sans;
+     font-size: 1.5em;
  }
 
-aside  {
-    
-	float:left;
-    max-width: 140px;
+  nav ul {
+    text-align:center;
+    padding:0;
 }
-
-article {
-	text-align: center;
-	clear:left;
-	width : 80%;
-}
+  nav ul li {
+     display: inline-block;
+     margin-right:1em;
+     font-size: 0.75em;
+ }
+  section {
+      margin:2em;
+      font-family: inherit;
+      font-size: small; 
+  }
  
-p{
-	font-family: 'Lucida Sans';
-	font-size: 11;
-}
+  article {
+      margin :3em;
+      padding:1em;
 
-ul{
-    font-family: "Arial";
-    font-size: 10;
-    }
-    
+  }
+  
+   figure {
+     margin:0;
+     padding:0;
+     text-align:center;
+ }
+  img {
+      margin:0px;
+      padding:0px;
+      width:100%;
+      max-width:100%;
+      height: 10%;
+  }
+   
+  @media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+	}
+}
+   footer {
+      width:100%;
+      text-align:center;
+      border: 1px solid grey;
+      color:black;
+      background-color:rgb(211, 191, 191);
+      display: inline-block;
+      padding:1em;
+ }
