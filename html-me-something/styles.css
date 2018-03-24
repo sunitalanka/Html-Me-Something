@@ -74,7 +74,7 @@ div.container {
 		display: block;
 	}
 }
-   footer {
+   #footer {
       width:100%;
       text-align:center;
       border: 1px solid grey;
